@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+nav:hover .list {
+  display: block;
+}
+
+nav {
+  position: relative;
+}
+
+.list {
+  display: none;
+  background: #324ecd;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+main {
+  margin: 0 auto;
+  width: 600px;
+}
+.menu{
+  box-shadow: 0 0 2px 1px violet;
+}
